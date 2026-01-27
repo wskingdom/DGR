@@ -2,6 +2,10 @@
 
 This repository contains the implementation of the proposed DGR algorithm as described in our paper submission.
 
+## Announcement
+**Update (2026.01.27):** I’ve been very busy over the past week and haven’t had time to fully test the earlier code yet. I’ve received feedback from several users and am actively testing and fixing issues now. Thanks for your patience.
+
+
 ## File Structure
 
 - **[CT](CT)**: Contains the geometry of the Computed Tomography system.
@@ -56,4 +60,5 @@ loss = (1.0 - opt.lambda_dssim) * Ll1 + opt.lambda_dssim * (1.0 - ssim(projs, ga
 
 
 ## Note
+
 ### Please note that the code is currently in its beta version. We are actively working on it and it will be updated for release soon. 
